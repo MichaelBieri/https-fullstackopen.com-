@@ -9,6 +9,9 @@ sequenceDiagram
     U->>B: Open app URL
     B->>CDN: GET https://studies.cs.helsinki.fi/exampleapp/spa with Request HTML, CSS, JS
     CDN-->>B: HTML with return SPA assets
+    B->>CDN: ajax POST request with new note in the box
+    CDN->>B: JSON data resuölt instead of HTML
+    Note right of CDN: Just partial update with JSON data
 
     B->>B: Run JavaScript (start SPA)
 
