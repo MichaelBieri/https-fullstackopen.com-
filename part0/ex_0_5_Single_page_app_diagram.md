@@ -7,8 +7,8 @@ sequenceDiagram
     participant DB as Database
 
     U->>B: Open app URL
-    B->>CDN: Request HTML, CSS, JS
-    CDN-->>B: Return SPA assets
+    B->>CDN: GET https://studies.cs.helsinki.fi/exampleapp/spa with Request HTML, CSS, JS
+    CDN-->>B: HTML with return SPA assets
 
     B->>B: Run JavaScript (start SPA)
 
