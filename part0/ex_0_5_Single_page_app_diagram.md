@@ -1,3 +1,7 @@
+# 0.5: Single page app diagram
+Just JSON updates not HTML full page update.
+
+
 ```mermaid
 sequenceDiagram
     participant U as User
