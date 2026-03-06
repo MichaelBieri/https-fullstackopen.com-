@@ -1,3 +1,6 @@
+# Diagram for https://fullstackopen.com/en/part0/fundamentals_of_web_apps exercise 0.4: New note diagram
+
+```mermaid
 sequenceDiagram
     participant browser
     participant server
